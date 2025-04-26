@@ -26,7 +26,7 @@
 
 - Click the ☰ (hamburger) button to rotate the content and show the menu.
 - Click the × (close) button to rotate back to the home view.
-- Customize the menu items in the <nav> element in index.html.
+- Customize the menu items in the < nav > element in index.html.
 
 ### Customizations
 
