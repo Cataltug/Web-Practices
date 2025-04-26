@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: linear-gradient(90deg, #4743d0, #853214);
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+
+h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+input, button{
+    padding: 15px 25px;
+    background-color: #fff;
+    border: none;
+    font-size: 1.2rem;
+}
+
+input{
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.poke-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .poke-box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 20px;
+  }
+
+.poke-box img{
+    width: 85%;
+    margin: 10px 0;
+}
+
+.poke-box h4{
+    font-size: 1.4rem;
+    margin: 5px auto;
+}
+
+.poke-box p {
+    margin: 10px auto;
+}
+
+#type-filter {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-left: 10px;
+}
+
+#type-filter:hover {
+    background-color: #f1f1f1;
+}
+
+#type-filter:focus {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+#type-filter option {
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+}
+
+.poke-box.selected {
+    border: 3px solid gold;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+

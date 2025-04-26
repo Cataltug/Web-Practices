@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Pomodoro Timer</h1>
+    <div class="timer">25:00</div>
+    <div class="stats">
+        <p>Todays completed Pomodoro: <span id="pomodoroCount">0</span></p>
+    </div>
+    <div class="pomodoroCount">
+        <p>Remaining Pomodoro for Long Break: <span id="remainingPomodoros">4</span></p>
+    </div>
+
+    </div>
+
+    <div class="box">
+    <button onclick="startTimer()()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+    <button onclick="resetTimer()">Reset</button>
+    </div>
+    <button class ="darkMode" onclick="toggleDarkMode()">Dark Mode</button>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>

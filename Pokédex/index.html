@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CUSTOM JS -->
+    <script src="app.js" defer></script>
+    <title>Pokedex Improved</title>
+</head>
+<body>
+    <h1>Pokedex Improved</h1>
+
+    <form action="poke-search">
+        <input type="text" name="poke-input" id="poke-input" placeholder="Search Pokémon">
+        <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        
+        <select id="type-filter">
+            <option value="all">All Types</option>
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="grass">Grass</option>
+            <option value="electric">Electric</option>
+            <option value="rock">Rock</option>
+            <option value="psychic">Psychic</option>
+            <option value="poison">Poison</option>
+            <option value="bug">Bug</option>
+            <option value="dragon">Dragon</option>
+            <option value="fairy">Fairy</option>
+            <option value="fighting">Fighting</option>
+            <option value="normal">Normal</option>
+            <option value="ice">Ice</option>
+        </select>
+    </form>
+    <button class="btn-battle">Start Battle!</button>
+    <div class="battle-result"></div>
+    <div class="poke-container"></div>
+
+</body>
+</html>

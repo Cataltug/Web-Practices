@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/icon.png"></h2>
+            <h3 id="active-day">Monday</h3>
+                <div class="day-buttons">
+                    <button onclick="switchDay('Monday')">Monday</button>
+                    <button onclick="switchDay('Tuesday')">Tuesday</button>
+                    <button onclick="switchDay('Wednesday')">Wednesday</button>
+                    <button onclick="switchDay('Thursday')">Thursday</button>
+                    <button onclick="switchDay('Friday')">Friday</button>
+                    <button onclick="switchDay('Saturday')">Saturday</button>
+                    <button onclick="switchDay('Sunday')">Sunday</button>
+                </div>
+
+
+            <div class="row">
+                <input type="text" placeholder="Add your text" id="input-box">
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <ul id="list-container"></ul>
+            <div id="progress-container">
+                <label for="progress-bar">Tasks Completed:</label>
+                <progress id="progress-bar" value="0" max="100"></progress>
+                <span id="progress-text">0%</span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
