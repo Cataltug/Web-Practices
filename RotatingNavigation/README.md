@@ -32,6 +32,6 @@
 
 - Rotation Angle: Open style.css and tweak the transform: rotate(-20deg) value under .container.show-nav.
 
-- Menu Items: Edit the <ul> in index.html to add/remove navigation links.
+- Menu Items: Edit the "<ul>" in index.html to add/remove navigation links.
 
 - Colors & Fonts: Adjust CSS variables or override styles in style.css.
